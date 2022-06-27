@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/R355-w-8-stud/IdeaProjects/Lab3/src</OriginalElement>
+  <nodes>
+    <node x="193.0" y="585.0">pak.Location</node>
+    <node x="0.0" y="343.0">pak.Boy</node>
+    <node x="392.0" y="585.0">pak.Place</node>
+    <node x="381.4435483870967" y="139.0">pak.Create</node>
+    <node x="398.02016129032256" y="409.0">pak.Fireplace</node>
+    <node x="385.0" y="794.0">pak.EndOfText</node>
+    <node x="142.02016129032256" y="128.0">pak.IKarlson</node>
+    <node x="167.99999999999997" y="332.0">pak.Karlson</node>
+    <node x="0.0" y="794.0">pak.Main</node>
+    <node x="551.0201612903226" y="398.0">pak.Picture</node>
+    <node x="687.8266129032259" y="172.0">pak.IFreken</node>
+    <node x="194.0" y="794.0">pak.KarlosPleasure</node>
+    <node x="263.0685483870967" y="0.0">pak.IHuman</node>
+    <node x="611.0" y="585.0">pak.Things</node>
+    <node x="0.0" y="585.0">pak.IBoy</node>
+    <node x="712.9435483870967" y="409.0">pak.Freken</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pak.Karlson" target="pak.Create" relationship="GENERALIZATION">
+      <point x="39.75" y="-104.0" />
+      <point x="287.25" y="301.0" />
+      <point x="467.4435483870967" y="301.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="pak.Karlson" target="pak.IHuman" relationship="REALIZATION">
+      <point x="-39.75" y="-104.0" />
+      <point x="207.74999999999997" y="311.0" />
+      <point x="174.52016129032256" y="311.0" />
+      <point x="174.52016129032256" y="291.0" />
+      <point x="131.52016129032256" y="291.0" />
+      <point x="131.52016129032256" y="102.0" />
+      <point x="333.5685483870967" y="102.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="pak.Create" target="pak.IHuman" relationship="REALIZATION">
+      <point x="0.0" y="-60.0" />
+      <point x="467.4435483870967" y="102.0" />
+      <point x="333.5685483870967" y="102.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="pak.Freken" target="pak.IHuman" relationship="REALIZATION">
+      <point x="25.0" y="-27.0" />
+      <point x="787.9435483870967" y="311.0" />
+      <point x="767.8185483870967" y="311.0" />
+      <point x="767.8185483870967" y="291.0" />
+      <point x="798.3266129032259" y="291.0" />
+      <point x="798.3266129032259" y="102.0" />
+      <point x="333.5685483870967" y="102.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="pak.Freken" target="pak.IFreken" relationship="REALIZATION">
+      <point x="25.0" y="-27.0" />
+      <point x="787.9435483870967" y="311.0" />
+      <point x="767.8185483870967" y="311.0" />
+      <point x="767.8185483870967" y="291.0" />
+      <point x="737.8266129032259" y="291.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="pak.Freken" target="pak.Create" relationship="GENERALIZATION">
+      <point x="-25.0" y="-27.0" />
+      <point x="737.9435483870967" y="301.0" />
+      <point x="467.4435483870967" y="301.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="pak.Picture" target="pak.Create" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="620.5201612903226" y="301.0" />
+      <point x="467.4435483870967" y="301.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="pak.Fireplace" target="pak.Create" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="464.52016129032256" y="301.0" />
+      <point x="467.4435483870967" y="301.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="pak.Boy" target="pak.IHuman" relationship="REALIZATION">
+      <point x="-37.0" y="-93.0" />
+      <point x="37.0" y="311.0" />
+      <point x="29.193548387096712" y="311.0" />
+      <point x="29.193548387096712" y="102.0" />
+      <point x="333.5685483870967" y="102.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="pak.Karlson" target="pak.IKarlson" relationship="REALIZATION">
+      <point x="-39.75" y="-104.0" />
+      <point x="207.74999999999997" y="311.0" />
+      <point x="174.52016129032256" y="311.0" />
+      <point x="174.52016129032256" y="291.0" />
+      <point x="217.52016129032256" y="291.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="pak.Boy" target="pak.Create" relationship="GENERALIZATION">
+      <point x="37.0" y="-93.0" />
+      <point x="111.0" y="301.0" />
+      <point x="467.4435483870967" y="301.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5875576036866359" showDependencies="false" x="406.5" y="424.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

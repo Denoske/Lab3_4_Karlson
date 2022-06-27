@@ -1,6 +1,6 @@
 package pak;
 
-public class Boy extends Create implements IHuman {
+public class Boy extends Create implements IHuman,IBoy {
     public Boy(int age, String name) {
         super(name, age);
         System.out.println("Created person " + name);
